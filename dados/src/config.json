@@ -1,0 +1,13 @@
+{
+  "prefixo": "!",
+  "nomebot": "FinGuard Bot",
+  "ownerNumber": "",
+  "grupoLog": "",
+  "autoRead": true,
+  "antiFake": false,
+  "comandosPorMinuto": 15,
+  "tempoLimiteResposta": 30000,
+  "moeda": "BRL",
+  "simboloMoeda": "R$",
+  "fusoHorario": "America/Sao_Paulo"
+}
