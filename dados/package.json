@@ -1,0 +1,35 @@
+{
+  "name": "finguard-bot",
+  "version": "1.0.0",
+  "description": "FinGuard Bot - Bot de controle financeiro para WhatsApp",
+  "main": "src/.scripts/start.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/.scripts/start.js",
+    "dev": "node --watch src/.scripts/start.js",
+    "config": "node src/.scripts/config.js",
+    "config:install": "node src/.scripts/config.js --install",
+    "update": "node src/.scripts/update.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "financeiro",
+    "controle",
+    "finguard"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "axios": "^1.6.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "linkedom": "^0.16.5",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.3",
+    "node-webpmux": "^3.1.9",
+    "pino": "^8.17.1",
+    "qrcode-terminal": "^0.12.0",
+    "whaileys": "^6.4.3"
+  }
+}
